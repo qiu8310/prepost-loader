@@ -1,6 +1,6 @@
 {
   "name": "prepost-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A loader add prefix or postfix string to source file for webpack.",
   "main": "index.js",
   "dependencies": {

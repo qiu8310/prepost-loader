@@ -25,11 +25,11 @@ module.exports = function(content, sourceMap) {
 	var autoRequires = [];
 	var postfix = EOL + getQueryString('postfix');
 
-	var exts = query.autoRequireExtensions.map(function (ext) {
+	var exts = (query.autoRequireExtensions || []).map(function (ext) {
 		return ext[0] === '.' ? ext : '.' + ext;
 	});
 
-	if (exts) {
+	if (exts.length) {
 		if (typeof exts === 'string') exts = exts.split(/\s*,\s*/);
 		if (Array.isArray(exts)) {
 			exts.forEach(function (ext) {
