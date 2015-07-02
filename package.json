@@ -1,0 +1,28 @@
+{
+  "name": "prepost-loader",
+  "version": "1.0.0",
+  "description": "A loader add prefix or postfix string to source file for webpack.",
+  "main": "index.js",
+  "dependencies": {
+    "loader-utils": "0.2.x",
+    "source-map": "0.1.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htttps://github.com/qiu8310/prepost-loader"
+  },
+  "keywords": [
+    "wrap",
+    "prefix",
+    "postfix",
+    "webpack",
+    "loader",
+    "webpack-loader",
+    "prepost"
+  ],
+  "author": "Zhonglei Qiu",
+  "license": "MIT"
+}
