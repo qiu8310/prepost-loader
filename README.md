@@ -11,7 +11,7 @@ npm install prepost-loader
 ## Usage Examples
 
 
-1. Auto import `React` and `React.Component` in all `.jsx` files.
+1. Auto import `React` and `React.Component` for all `.jsx` files.
 
   ```javascript
   // ./webpack.config.js
@@ -59,4 +59,4 @@ npm install prepost-loader
 
 ## License
 
-MIT (http://www.opensource.org/licenses/mit-license.php)
+[MIT](http://www.opensource.org/licenses/mit-license.php)
